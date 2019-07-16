@@ -1,0 +1,165 @@
+/* 公式样式 */
+*{
+  padding: 0;
+  margin: 0;
+}
+i{
+  font-style: normal;
+}
+textarea{
+  resize: none;
+  outline: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?38vzml');
+  src:  url('../fonts/icomoon.eot?38vzml#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?38vzml') format('truetype'),
+    url('../fonts/icomoon.woff?38vzml') format('woff'),
+    url('../fonts/icomoon.svg?38vzml#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 基本样式 */
+.w{
+  width: 1100px;
+  height: 1200px;
+  font-size: 20px;
+  font-weight: 200;
+  border: 1px solid #c0504e;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+.sideBar{
+  width: 36%;
+  height: 100%;
+  border-right: 1px solid #c0504e;
+}
+.red{
+  width: 10%;
+  height: 100%;
+  box-shadow: 5px 0px 10px #d8d6d7;
+  background-color: #c0504e;
+}
+.baseMessage{
+  width: 90%;
+}
+.baseMessage_top{
+  width: 100%;
+}
+h3{
+  margin: 10px;
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  margin: 0 auto;
+  background: url("../images/2.png") no-repeat center;
+  background-size: 200px;
+}
+.photo+div{
+  text-align: center;
+}
+.baseMessage_middle{
+  margin: 60px 20px;
+}
+.baseMessage_middle ul{
+  list-style: none;
+}
+.baseMessage_middle li{
+  height: 40px;
+  line-height: 40px;
+  border-top: 2px solid #cccccc;
+}
+.baseMessage_middle li:nth-child(1){
+  margin-top: 20px;
+}
+.baseMessage_middle li:nth-child(6){
+  border-bottom: 2px solid #cccccc;
+}
+.baseMessage_middle i{
+  font-family: "icomoon";
+  display: inline-block;
+  width: 33px;
+  font-size: 30px;
+  color: #c0504e;
+}
+.baseMessage_middle span{
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.baseMessage_bottom{
+  margin: 60px 40px;
+}
+.baseMessage_bottom li{
+  font-size: 20px;
+  font-weight: 200;
+  height: 50px;
+  line-height: 50px;
+}
+/* 内容部分 */
+.content{
+  width: 60%;
+  height: 100%;
+  font-size: 20px;
+  padding: 0 20px;
+  border-left: 1px solid #c0504e;
+}
+.content div{
+  width: 100%;
+}
+.content h2{
+  height: 50px;
+  line-height: 50px;
+}
+.content i{
+  font-family: "icomoon";
+  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  margin-right: 30px;
+  color: #c0504e;
+  vertical-align: middle;
+}
+.content span{
+  display: inline-block;
+  width: 80%;
+  border-bottom: 5px solid #121212;
+}
+.content div.box{
+  width: 620px;
+  height: 252px;
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.project_experience div.box{
+  height: 200px;
+}
+.honor ul{
+  margin-left: 60px;
+}
+.honor li{
+  height: 50px;
+  line-height: 50px;
+}
+.project_experience{
+  margin-top: 25px;
+}
+.self-evaluation .box{
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 35px;
+}
